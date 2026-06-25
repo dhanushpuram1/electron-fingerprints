@@ -1,13 +1,13 @@
 {
-  "name": "simple-node-starter",
+  "name": "electron-fingerprints",
   "version": "1.0.0",
-  "description": "A simple Node.js starter project",
+  "description": "Electron Fingerprints - Fingerprinting library for Electron apps",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"No tests yet\" && exit 0"
   },
-  "keywords": ["nodejs", "starter"],
+  "keywords": ["electron", "fingerprint", "security"],
   "author": "",
   "license": "MIT"
 }

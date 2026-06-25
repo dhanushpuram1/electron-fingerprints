@@ -1,23 +1,23 @@
-# Simple Node.js Starter
+# Electron Fingerprints
 
-A minimal Node.js starter project to get you up and running quickly.
+A fingerprinting library for Electron applications.
 
 ## Features
 
-- Simple and simple project structure
-- Basic package.json with scripts
-- Ready to use!
+- Simple API for device fingerprinting in Electron
+- Easy to integrate
+- Lightweight and fast
 
 ## Installation
 
-1. Clone the repository
-2. Run `npm install` (if you add dependencies)
-3. Start coding!
+```bash
+npm install electron-fingerprints
+```
 
 ## Usage
 
-```bash
-npm start
+```javascript
+// Coming soon
 ```
 
 ## License
