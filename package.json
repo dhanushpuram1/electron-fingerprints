@@ -2,12 +2,15 @@
   "name": "electron-fingerprints",
   "version": "1.0.0",
   "description": "Electron Fingerprints - Fingerprinting library for Electron apps",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "electron .",
     "test": "echo \"No tests yet\" && exit 0"
   },
   "keywords": ["electron", "fingerprint", "security"],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^31.0.0"
+  }
 }

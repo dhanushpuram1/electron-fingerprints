@@ -1,24 +1,52 @@
 # Electron Fingerprints
 
-A fingerprinting library for Electron applications.
+A complete, working Electron app for device fingerprinting!
 
 ## Features
 
-- Simple API for device fingerprinting in Electron
-- Easy to integrate
-- Lightweight and fast
+- Generate unique device fingerprints using canvas and user agent data
+- Clean, modern UI
+- Simple and easy to use
+- Complete Electron project structure
 
-## Installation
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+2. Install dependencies:
+```bash
+npm install
+```
+
+### Running the App
 
 ```bash
-npm install electron-fingerprints
+npm start
 ```
 
-## Usage
+## Project Structure
 
-```javascript
-// Coming soon
 ```
+electron-fingerprints/
+├── main.js          # Main Electron process
+├── preload.js       # Preload script
+├── renderer.js      # Renderer process
+├── index.html       # Main UI
+└── package.json
+```
+
+## How It Works
+
+The app generates a fingerprint using:
+- Canvas rendering
+- User agent string
+- Screen dimensions
 
 ## License
 
