@@ -1,0 +1,13 @@
+{
+  "name": "simple-node-starter",
+  "version": "1.0.0",
+  "description": "A simple Node.js starter project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": ["nodejs", "starter"],
+  "author": "",
+  "license": "MIT"
+}
